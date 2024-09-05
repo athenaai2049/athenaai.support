@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Deletion Request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Request Account & Data Deletion</h1>
+        <p>If you'd like to request the deletion of your account and associated data, please fill out the form below and submit your request.</p>
+        
+        <form id="deletionForm">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="reason">Reason for Deletion (Optional):</label>
+            <textarea id="reason" name="reason" placeholder="Optional reason for account deletion"></textarea>
+            
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <p class="success-message" id="successMessage"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
